@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*HEADER*/
+.pnote {
+  background-color: rgb(191, 255, 234);
+  color: blue;
+}
+
+.left-tip,
+.right-tip {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: none;
+  z-index: 1;
+}
+
+.left-tip {
+  border: transparent black transparent transparent;
+}
+
+.right-tip {
+  border: transparent transparent transparent black;
+}
+
+/*Forward / Backward icons on the header / footer bar*/
+.bwbtnrow,
+.fwbtnrow {
+  color: grey;
+  /* color: rgb(0, 233, 155); */
+  /* color: olivedrab; */
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*MAIN*/
+.bound {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.timeline {
+  flex: 25%;
+}
+
+.prodes {
+  flex: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.procol--1 {
+  flex: 65%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.procol--2 {
+  flex: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scopes-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scope-in {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.scope-out {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1024px) {
+  .timeline,
+  .procol--1,
+  .procol--2,
+  .scope-in,
+  .scope-out {
+    flex: 100%;
+  }
+}
+
+.hpstyle {
+  color: blue;
+  border-bottom: solid 1.5px grey;
+}
+
+.dproj {
+  display: flex;
+  flex-direction: row;
+}
+
+.pcontent,
+.tproj {
+  background-color: white;
+}
+
+.tl-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.tl-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.tl-title {
+  border: transparent;
+}
+
+.elipsed-icon-prim {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: transparent;
+  background-color: black;
+}
+
+.elipsed-icon-tim {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: blueviolet;
+}
+
+.hidden {
+  display: none;
+}

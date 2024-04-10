@@ -1,0 +1,77 @@
+@media screen and (max-width: 480px) {
+  /*Text in header / footer part*/
+  .pnote {
+    font-size: 0.5rem;
+  }
+
+  .redirect {
+    padding: 0 0.4rem;
+  }
+
+  .left-tip,
+  .right-tip {
+    padding: 0.1rem;
+    font-size: 0.4rem;
+    border-radius: 0.1rem;
+  }
+
+  /*Row icons for backward / forward*/
+  .bwbtnrow,
+  .fwbtnrow {
+    font-size: 0.8rem;
+    line-height: 0.2rem;
+  }
+
+  /* Flag Icon in Goals*/
+  .piticon-goals {
+    font-size: 1rem;
+    padding: 0.3rem 0;
+    margin: 0 0.6rem;
+  }
+
+  .piticon-scopes {
+    font-size: 0.8rem;
+    padding: 0.3rem 0;
+    margin: 0 0.6rem;
+  }
+
+  .pittext-scopes {
+    padding: 0.15rem 0;
+    margin: 0.15rem 0.6rem;
+  }
+  /*Somethings including 'Goals', 'Scopes', .., 'Timeline'*/
+  .hpstyle {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  /*Somethings including 'Goal1', 'Goal2', 'Member01', 'Project Start',.., 'Project Date'*/
+  .dtitle {
+    font-size: 0.8rem;
+  }
+
+  /*Text in almost td tag*/
+  .dcontent {
+    font-size: 0.6rem;
+  }
+
+  .tl-col {
+    margin: 0.7rem;
+  }
+
+  .elipsed-icon-prim {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0 0 0.2rem 0;
+    padding: 0.8rem 0.8rem;
+    border: solid 2px yellowgreen;
+  }
+
+  .elipsed-icon-tim {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 0 0.2rem 0;
+    padding: 1rem 1rem;
+    border: solid 2px yellow;
+  }
+}

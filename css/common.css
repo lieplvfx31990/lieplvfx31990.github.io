@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON USED */
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+.bd-right {
+  border-right: solid 0.1rem rgb(218, 218, 218);
+}
+
+.bd-left {
+  border-left: solid 0.1rem rgb(218, 218, 218);
+}
+
+.bd-top {
+  border-top: solid 0.1rem rgb(218, 218, 218);
+}
+
+.bd-bottom {
+  border-bottom: solid 0.1rem rgb(218, 218, 218);
+}
+
+.hidden {
+  display: none;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.info {
+  text-align: justify;
+  padding: 0;
+}
+
+.contact-info {
+  text-align: justify;
+}
+
+/* HEADER SECTION */
+.banner {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 20vh;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* NAV SECTION */
+#nav-bar {
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+/* ABOUT SECTION */
+.about-layout {
+  display: flex;
+}
+
+#target {
+  background-color: rgba(218, 218, 218, 0.35);
+}
+
+#personal-info {
+  background-color: rgba(218, 218, 218, 0.5);
+}
+
+#in-email,
+#lb-email {
+  width: 100%;
+}
+
+.btn-esubmit {
+  background-color: rgb(32, 169, 211);
+  color: white;
+  border: solid 2px transparent;
+}
+
+/* 
+.btn-ehovered {
+  background-color: rgb(35, 35, 184);
+  color: white;
+  border: none;
+}
+
+.btn-epressed {
+  background-color: rgb(149, 250, 149);
+  color: black;
+  border: solid 2px orange;
+}
+ */
+
+/* JOB-INFO SECTION */
+.job-info-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rounded-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid greenyellow;
+}
+
+.rounded-icon > i {
+  color: rgb(28, 169, 173);
+}
+
+.compound-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-dash {
+  text-align: left;
+  font-weight: bolder;
+  color: blue;
+}
+
+.disactive-dash {
+  text-align: left;
+  font-weight: bolder;
+  color: rgb(182, 182, 182);
+}
+
+.btn-jobinfo {
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  color: transparent;
+  box-shadow: none;
+}
+
+/*CERTIFICATES SECTION*/
+.certs-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.cert-item {
+  display: flex;
+}
+
+.cert-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* PROJECT SECTION */
+.proj-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj-title {
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*Rounded the year when a project was completed*/
+.project-time {
+  background: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.proj-th {
+  width: 28%;
+}
+
+/* FOOTER */
+.ft-style {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.ft-link {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+.ft-icon {
+  color: blue;
+}

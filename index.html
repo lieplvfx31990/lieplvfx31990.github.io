@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./icons/funix-icon.png" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Assignment 03</title>
+  </head>
+  <body>
+    <!--The banner image with text inside it-->
+    <header>
+      <div
+        class="container banner"
+        style="background-image: url(./images/banner.jpg)"
+      >
+        <h1>Lê Võ Liệp</h1>
+        <span>Full Stack Developer</span>
+      </div>
+    </header>
+    <main>
+      <!--Navigation Bar-->
+      <section id="nav-bar">
+        <nav class="container" style="width: 80%">
+          <div class="nav-align" id="nav-items">
+            <div id="nav-item-0">
+              <a href="#"><i class="icon-user"></i>Thông tin</a>
+            </div>
+            <div id="nav-item-1">
+              <a href="#"><i class="icon-doc-text-inv"></i>Lý lịch</a>
+            </div>
+            <div id="nav-item-2">
+              <span style="font-size: 1rem"><b>Lê Võ Liệp</b></span
+              ><br />
+              <span style="font-size: 0.5rem">Full Stack Developer</span>
+            </div>
+            <div id="nav-item-3">
+              <a href="#"><i class="icon-mail-alt"></i>Chứng chỉ</a>
+            </div>
+            <div id="nav-item-4">
+              <a href="./asm3-projs/asm3-project-charter.html" target="_self"
+                ><i class="icon-star-1"></i>Dự Án</a
+              >
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section id="about">
+        <div class="container">
+          <div class="row about-layout">
+            <div id="target">
+              <h1 class="container section-title">Mục tiêu nghề nghiệp</h1>
+              <p class="container info">
+                Là một lao động tự do muốn chuyển ngành, đã trải qua một số công
+                việc liên quan ít nhiều đến lĩnh vực công nghệ thông tin nói
+                chung và công nghệ phần mềm nói riêng, tôi muốn được làm việc
+                trở lại trong lĩnh vực này. Lĩnh vực này đã từng mang đến cho
+                tôi nguồn cảm hứng tuyệt vời trong cuộc sống. Tôi muốn trở lại
+                làm việc trong lĩnh vực này, bắt đầu từ
+                <b>Fullstack Developer</b>.
+              </p>
+            </div>
+            <div id="personal-info">
+              <h1 class="container section-title">Thông tin cá nhân</h1>
+              <div class="container info-content hidden">
+                <ul class="info" style="list-style: none">
+                  <li><span>Họ và tên</span> : Lê Võ Liệp</li>
+                  <li><span>Giới tính</span> : Nam</li>
+                  <li><span>Ngày sinh</span> : 02/11/1975</li>
+                  <li><span>Điện thoại</span> : (+84) 865573542</li>
+                  <li><span>Email</span> : lieplvfx31990@funix.edu.vn</li>
+                  <li><span>Địa chỉ</span> : Đức Hòa, Long An, Việt Nam</li>
+                  <li><span>Website</span> :</li>
+                </ul>
+                <span class="contact-info"
+                  ><a href="#"><i class="icon-twitter"></i></a
+                ></span>
+                <span class="contact-info"
+                  ><a
+                    href="https://www.facebook.com/liep.383718"
+                    target="_blank"
+                    ><i class="icon-facebook"></i></a
+                ></span>
+                <span class="contact-info"
+                  ><a href="#"><i class="icon-gplus"></i></a
+                ></span>
+                <span class="contact-info"
+                  ><a href="#"><i class="icon-linkedin"></i></a
+                ></span>
+              </div>
+              <div class="container query-info">
+                <input
+                  id="in-email"
+                  type="email"
+                  placeholder="Enter email"
+                  autocomplete="off"
+                  class="p-1"
+                />
+                <label id="lb-email">Hãy nhập email để xác thực</label>
+                <button id="btn-email" type="button" class="btn-esubmit">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="job-info">
+        <div class="container">
+          <div class="job-info-layout">
+            <div class="job-info-item border">
+              <table class="table table-borderless">
+                <thead class="hjobinfo">
+                  <tr style="height: 50%">
+                    <th class="d-flex flex-fill">
+                      <h1 class="section-title">Kinh nghiệm</h1>
+                      <i class="ms-auto ic-toolbox"></i>
+                    </th>
+                  </tr>
+                  <tr style="height: 50%">
+                    <th class="pb-0">
+                      <button type="button" class="btn-jobinfo">
+                        &#9660; VIEW MORE
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="job-details hidden">
+                  <tr>
+                    <td>
+                      <ul class="info ms-2">
+                        <li class="mb-3">
+                          <b>Lao động tự do</b><br />
+                          <em>
+                            07/2023 -
+                            <span
+                              style="
+                                background-color: blue;
+                                color: white;
+                                padding: 0 0.5em;
+                                border-radius: 3px;
+                              "
+                            >
+                              <b>Hiện tại</b>
+                            </span>
+                          </em>
+                        </li>
+                        <li class="mb-3">
+                          <b>Shipper - Công ty cổ phần Bambooship</b><br />
+                          <b>Nhân viên bảo vệ - Công ty bảo vệ ngày và đêm</b
+                          ><br />
+                          <b>Nhân viên bảo vệ - Công ty bảo vệ Long Hoàng</b
+                          ><br />
+                          <em>2016 - 07/2023</em>
+                        </li>
+                        <li class="mb-3">
+                          <b>
+                            Software developer - Công ty Đầu tư và phát triển
+                            công nghệ thông minh (VTC Smarttech) </b
+                          ><br />
+                          <em>2007 - 2016</em><br />
+                          <span
+                            >- Xây dựng, phát triển các ứng dụng trên máy tính
+                            cá nhân theo yêu cầu đã có.</span
+                          >
+                        </li>
+                        <li class="mb-3">
+                          <b>
+                            Software developer - Công ty dịch vụ công nghệ thông
+                            tin Thiên Tân </b
+                          ><br />
+                          <em>2006 - 2007</em><br />
+                          <span
+                            >- Nghiên cứu / phát triển ứng dụng sử dụng công
+                            nghệ bluetooth</span
+                          >
+                        </li>
+                        <li class="mb-3">
+                          <b>
+                            Software developer - Công ty Đầu tư và phát triển
+                            công nghệ thông minh (VTC Smarttech) </b
+                          ><br />
+                          <em>2005 - 2006</em><br />
+                          <span
+                            >- Xây dựng, phát triển các ứng dụng trên máy tính
+                            cá nhân theo yêu cầu đã có.</span
+                          >
+                        </li>
+                        <li class="mb-3">
+                          <b>
+                            Nhân viên vận hành, bảo dưỡng thiết bị viễn thông -
+                            Công ty viễn thông liên tỉnh (VTN) </b
+                          ><br />
+                          <em>1998 - 2004</em>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="job-info-item border">
+              <table class="table table-borderless">
+                <thead class="hjobinfo">
+                  <tr>
+                    <th class="d-flex flex-fill">
+                      <h1 class="section-title">Học vấn</h1>
+                      <i class="ms-auto ic-pencil"></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="pb-0">
+                      <button type="button" class="btn-jobinfo">
+                        &#9660; VIEW MORE
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="job-details hidden">
+                  <tr>
+                    <td>
+                      <ul class="info ms-2">
+                        <li class="mb-3">
+                          <b>FUNiX</b><br />
+                          <em>12/2023 - Hiện tại</em><br />
+                          <span>- Đang theo học khóa Web fullstack</span>
+                        </li>
+                        <li class="mb-3">
+                          <b
+                            >Hệ 2 năm sau đại học - Đại học bách khoa tp Hồ Chí
+                            Minh.</b
+                          ><br />
+                          <em>2002 - 2005</em><br />
+                          <span>- Chuyên ngành điện tử viễn thông</span>
+                        </li>
+                        <li class="mb-3">
+                          <b>
+                            Kỹ sư - Đại học Giao Thông Vận Tải Cơ sở 2, Tp Hồ
+                            Chí Minh. </b
+                          ><br />
+                          <em>1993 - 1998</em><br />
+                          <span>- Chuyên ngành điện tử viễn thông.</span>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="job-info-item border">
+              <table class="table table-borderless">
+                <thead class="hjobinfo">
+                  <tr>
+                    <th class="d-flex flex-fill">
+                      <h1 class="section-title">Hoạt động</h1>
+                      <i class="ms-auto ic-toolbox"></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="pb-0">
+                      <button type="button" class="btn-jobinfo">
+                        &#9660; VIEW MORE
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="job-details hidden">
+                  <tr>
+                    <td>
+                      <ul class="info ms-2">
+                        <li class="mb-3">
+                          <b>Câu lạc bộ chạy bộ Đức Hòa Thượng</b><br />
+                          <em>01/2024 - Hiện tại</em><br />
+                          <span>- Thành viên câu lạc bộ</span>
+                        </li>
+                        <li class="mb-3">
+                          <b>Câu lạc bộ Aikido Thủ Dầu Một</b><br />
+                          <em>10/2023 - 12/2023</em><br />
+                          <span>- Học viên</span>
+                        </li>
+                      </ul>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="job-info-item border">
+              <table class="table table-borderless">
+                <thead class="hjobinfo">
+                  <tr>
+                    <th class="d-flex flex-fill">
+                      <h1 class="section-title">Sở thích</h1>
+                      <i class="ms-auto ic-telescope"></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="pb-0">
+                      <button type="button" class="btn-jobinfo">
+                        &#9660; VIEW MORE
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="job-details hidden">
+                  <tr>
+                    <td class="d-flex justify-content-around flex-wrap">
+                      <div class="compound-icon">
+                        <div class="rounded-icon">
+                          <i class="ic-hotairballoon"></i>
+                        </div>
+                        <p class="info">Du lịch</p>
+                      </div>
+                      <div class="compound-icon">
+                        <div class="rounded-icon">
+                          <i class="ic-megaphone"></i>
+                        </div>
+                        <p class="info">Nghe nhạc</p>
+                      </div>
+                      <div class="compound-icon">
+                        <div class="rounded-icon">
+                          <i class="ic-strategy"></i>
+                        </div>
+                        <p class="info">Chơi game</p>
+                      </div>
+                      <div class="compound-icon">
+                        <div class="rounded-icon">
+                          <i class="ic-basket"></i>
+                        </div>
+                        <p class="info">Thể thao</p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="job-info-item border">
+              <table class="table table-borderless">
+                <thead class="hjobinfo">
+                  <tr>
+                    <th class="d-flex flex-fill">
+                      <h1 class="section-title">Ngôn ngữ</h1>
+                      <i class="ms-auto ic-mic"></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="pb-0">
+                      <button type="button" class="btn-jobinfo">
+                        &#9660; VIEW MORE
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="job-details hidden">
+                  <tr>
+                    <td>
+                      <span class="info">Tiếng Anh - Intermediate</span><br />
+                      <span class="active-dash">&#8213;</span>
+                      <span class="active-dash">&#8213;</span>
+                      <span class="disactive-dash">&#8213;</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="job-info-item border">
+              <table class="table table-borderless">
+                <thead class="hjobinfo">
+                  <tr style="height: auto">
+                    <th class="d-flex flex-fill">
+                      <h1 class="section-title">Kỹ năng</h1>
+                      <i class="ms-auto ic-tools-2"></i>
+                    </th>
+                  </tr>
+                  <tr>
+                    <th class="pb-0">
+                      <button type="button" class="btn-jobinfo">
+                        &#9660; VIEW MORE
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="job-details hidden">
+                  <tr>
+                    <td>
+                      <span class="info">C/C++ - Intermediate</span><br />
+                      <span class="active-dash">&#8213;</span>
+                      <span class="active-dash">&#8213;</span>
+                      <span class="disactive-dash">&#8213;</span>
+                      <br />
+                      <br />
+                      <span class="info">C# - Intermediate</span><br />
+                      <span class="active-dash">&#8213;</span>
+                      <span class="active-dash">&#8213;</span>
+                      <span class="disactive-dash">&#8213;</span>
+                      <br />
+                      <br />
+                      <span class="info">Objective-C - Intermediate</span><br />
+                      <span class="active-dash">&#8213;</span>
+                      <span class="active-dash">&#8213;</span>
+                      <span class="disactive-dash">&#8213;</span>
+                      <br />
+                      <br />
+                      <span class="info">Delphi - Intermediate</span><br />
+                      <span class="active-dash">&#8213;</span>
+                      <span class="active-dash">&#8213;</span>
+                      <span class="disactive-dash">&#8213;</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificate" class="container bg-grey">
+        <h1 class="container section-title">Chứng chỉ - Giải thưởng</h1>
+        <div class="certs-layout">
+          <div id="cert--0" class="cert-item">
+            <div class="container">
+              <div class="cert-img">
+                <img
+                  style="width: 100%"
+                  src="./images/Cert_WEB.png"
+                  alt="Cert_WEB image"
+                />
+              </div>
+              <div class="container info">
+                <p class="cert-title mb-1">Chứng chỉ lập trình web - finux</p>
+                <span>- Chứng chỉ thuộc chương trình CCDN</span><br />
+                <span>- GPA:8.0</span>
+              </div>
+            </div>
+          </div>
+          <div id="cert--1" class="cert-item">
+            <div class="container">
+              <div class="cert-img">
+                <img
+                  style="width: 100%"
+                  src="./images/Cert_PRF.png"
+                  alt="Cert_PRF Image"
+                />
+              </div>
+              <div class="container info">
+                <p class="cert-title mb-1">
+                  Chứng chỉ lập trình javascript -funix
+                </p>
+                <span>- Chứng chỉ thuộc chương trình CCDN</span><br />
+                <span>- GPA:8.1</span>
+              </div>
+            </div>
+          </div>
+          <div id="cert--2" class="cert-item">
+            <div class="container">
+              <div class="cert-img">
+                <img
+                  style="width: 100%"
+                  src="./images/Cert_DBI.png"
+                  alt="Cert_DBI Image"
+                />
+              </div>
+              <div class="container info">
+                <p class="cert-title mb-1">
+                  Chứng chỉ Thiết kế Database - funix
+                </p>
+                <span>- Chứng chỉ thuộc chương trình CCDN</span><br />
+                <span>- GPA:8.2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="project">
+        <h1 class="container section-title">Dự án</h1>
+        <div class="container">
+          <div class="project-layout">
+            <!--Project 1-->
+            <div class="project-item">
+              <div class="proj-img bd-top bd-left bd-right bd-bottom">
+                <img
+                  class="proj-img-size"
+                  src="./images/proj-1.jpg"
+                  alt="Project1 Image"
+                />
+              </div>
+              <div class="proj-title bd-left bd-right bd-bottom">
+                CV cá nhân
+              </div>
+              <div
+                class="py-3 d-flex justify-content-around flex-wrap info bd-left bd-right proj_brief"
+              >
+                <div class="project-time">2024</div>
+                <div><i class="icon-user-1"></i>FUNiX</div>
+                <div><i class="icon-lamp"></i>Developer</div>
+              </div>
+              <table class="table table-bordered pb-0 mb-0 info">
+                <tr class="proj-desc">
+                  <th class="proj-th">Mô tả</th>
+                  <td>
+                    Trang web lý lịch nghề nghiệp trực tuyến. Trang web bao gồm
+                    các thông tin cá nhân, lược sử hoạt động và kỹ năng nghề
+                    nghiệp.
+                  </td>
+                </tr>
+                <tr class="proj-role">
+                  <th class="proj-th">Nhiệm vụ</th>
+                  <td>
+                    Phát triển code từ đồ án môn học của khóa học Fullstack web
+                    - FUNiX/FPT; Review code; Xử lý lỗi.
+                  </td>
+                </tr>
+                <tr class="proj-tech">
+                  <th class="proj-th">Công nghệ</th>
+                  <td>html, css</td>
+                </tr>
+              </table>
+            </div>
+            <!--Project 2-->
+            <div class="project-item">
+              <div class="proj-img bd-top bd-left bd-right bd-bottom">
+                <img
+                  class="proj-img-size"
+                  src="./images/proj_2.jpg"
+                  alt="Project2 Image"
+                />
+              </div>
+              <div class="proj-title bd-left bd-right bd-bottom">
+                Chương trình quản lý PKI Card/Token
+              </div>
+              <div
+                class="py-3 d-flex justify-content-around flex-wrap info bd-left bd-right proj_brief"
+              >
+                <div class="project-time">2016</div>
+                <div><i class="icon-user-1"></i>VTCsmarttech</div>
+                <div><i class="icon-lamp"></i>Developer</div>
+              </div>
+              <table class="table table-bordered pb-0 mb-0 info">
+                <tr class="proj-desc">
+                  <th class="proj-th">Mô tả</th>
+                  <td>
+                    Ứng dụng giúp quản lý các dữ liệu trên PKI-card; bao gồm
+                    data, keys, và certificates.
+                  </td>
+                </tr>
+                <tr class="proj-role">
+                  <th class="proj-th">Nhiệm vụ</th>
+                  <td>Viết mã chương trình.</td>
+                </tr>
+                <tr class="proj-tech">
+                  <th class="proj-th">Công nghệ</th>
+                  <td>PKI, C/C+/Objective-C</td>
+                </tr>
+              </table>
+            </div>
+            <!--Project 3-->
+            <div class="project-item">
+              <div class="proj-img bd-top bd-right bd-bottom bd-left">
+                <img
+                  class="proj-img-size"
+                  src="./images/proj_3.jpg"
+                  alt="Project3 Image"
+                />
+              </div>
+              <div class="proj-title bd-left bd-right bd-bottom">
+                Trình biên dịch
+              </div>
+              <div
+                class="py-3 d-flex justify-content-around flex-wrap info bd-left bd-right proj_brief"
+              >
+                <div class="project-time">2006</div>
+                <div><i class="icon-user-1"></i>VTCsmarttech</div>
+                <div><i class="icon-lamp"></i>Developer</div>
+              </div>
+              <table class="table table-bordered pb-0 mb-0 info">
+                <tr class="proj-desc">
+                  <th class="proj-th">Mô tả</th>
+                  <td>
+                    Trình biên dịch giúp viết các ứng dụng giá trị gia tăng trên
+                    SIM card.
+                  </td>
+                </tr>
+                <tr class="proj-role">
+                  <th class="proj-th">Nhiệm vụ</th>
+                  <td>Viết mã chương trình.</td>
+                </tr>
+                <tr class="proj-tech">
+                  <th class="proj-th">Công nghệ</th>
+                  <td>Syntax parser, C/C+</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer" class="container bg-grey">
+        <ul class="ft-style">
+          <li class="mx-3">
+            <a
+              class="ft-link"
+              href="https://www.facebook.com/liep.383718"
+              target="_blank"
+            >
+              <i class="ft-icon icon-facebook-circled"></i>
+              <span class="link-name">Facebook</span>
+            </a>
+          </li>
+          <li class="mx-3">
+            <a class="ft-link" href="#">
+              <i class="ft-icon icon-linkedin-circled"></i>
+              <span class="link-name">Linkedin</span>
+            </a>
+          </li>
+          <li class="mx-3">
+            <a
+              class="ft-link"
+              href="https://github.com/lieplvfx31990"
+              target="_blank"
+            >
+              <i class="ft-icon icon-github-circled"></i>
+              <span class="link-name">Github</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <script src="./js/asm3.js"></script>
+  </body>
+</html>
