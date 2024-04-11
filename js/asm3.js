@@ -46,6 +46,22 @@ function set_equiv_element_height(elCls) {
 }
 
 /**
+ *  This function set height property for all elements, which are specified
+ * by an input class name, to their fit-content.
+ */
+function resetheight(elCls) {
+  let els = document.querySelectorAll("." + `${elCls}`);
+  let inArrLen = els.length;
+  for (let i = 0; i < inArrLen; i++) {
+    els[i].setAttribute("style", "height: fit-content;");
+  }
+}
+
+function projreload() {
+  document.getElementById("project").reload();
+}
+
+/**
  * SET ATTRIBUTE FOR QUERYING PERSONAL INFORMATION BUTTON
  */
 // Function to set mouseover state
@@ -135,21 +151,26 @@ function arrangeProjItems() {
   }
 }
 
-arrangeProjItems();
-
 // Attatch listener function on window change state
 // (Excluding mobile's width)
-window.addEventListener("resize", function () {
-  if (window.outerWidth > 480) {
-    set_equiv_element_height("proj-desc");
-    set_equiv_element_height("proj-role");
-    set_equiv_element_height("proj-tech");
-    set_equiv_element_height("proj-title");
-    set_equiv_element_height("proj_brief");
-  } else {
-    this.location.reload();
-  }
-});
+if (screen.width > 480) {
+  arrangeProjItems();
+  window.addEventListener("resize", function () {
+    if (window.outerWidth > 480) {
+      set_equiv_element_height("proj-desc");
+      set_equiv_element_height("proj-role");
+      set_equiv_element_height("proj-tech");
+      set_equiv_element_height("proj-title");
+      set_equiv_element_height("proj_brief");
+    } else {
+      resetheight("proj-desc");
+      resetheight("proj-role");
+      resetheight("proj-tech");
+      resetheight("proj-title");
+      resetheight("proj_brief");
+    }
+  });
+}
 
 mouseOnJobInfo();
 mouseUpBtnJobInfo();
