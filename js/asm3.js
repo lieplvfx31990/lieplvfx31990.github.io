@@ -154,7 +154,7 @@ function arrangeProjItems() {
 
 arrangeProjItems();
 
-// Attatch listener function on window resizing
+// Attatch listener function for window resizing
 window.addEventListener("resize", function () {
   if (window.outerWidth > 480) {
     set_equiv_element_height("proj-desc");
