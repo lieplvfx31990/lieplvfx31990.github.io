@@ -136,7 +136,6 @@ function mouseUpBtnJobInfo() {
 }
 
 // Arrange Project Items to be vertically justified
-// (Excluding mobile)
 function arrangeProjItems() {
   if (window.outerWidth > 480) {
     set_equiv_element_height("proj-desc");
