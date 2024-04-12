@@ -144,6 +144,12 @@ function arrangeProjItems() {
     set_equiv_element_height("proj-tech");
     set_equiv_element_height("proj-title");
     set_equiv_element_height("proj_brief");
+  } else {
+    resetheight("proj-desc");
+    resetheight("proj-role");
+    resetheight("proj-tech");
+    resetheight("proj-title");
+    resetheight("proj_brief");
   }
 }
 
