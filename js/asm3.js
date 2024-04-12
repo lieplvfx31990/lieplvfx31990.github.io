@@ -57,10 +57,6 @@ function resetheight(elCls) {
   }
 }
 
-function projreload() {
-  document.getElementById("project").reload();
-}
-
 /**
  * SET ATTRIBUTE FOR QUERYING PERSONAL INFORMATION BUTTON
  */
@@ -151,26 +147,24 @@ function arrangeProjItems() {
   }
 }
 
+arrangeProjItems();
+
 // Attatch listener function on window change state
-// (Excluding mobile's width)
-if (screen.width > 480) {
-  arrangeProjItems();
-  window.addEventListener("resize", function () {
-    if (window.outerWidth > 480) {
-      set_equiv_element_height("proj-desc");
-      set_equiv_element_height("proj-role");
-      set_equiv_element_height("proj-tech");
-      set_equiv_element_height("proj-title");
-      set_equiv_element_height("proj_brief");
-    } else {
-      resetheight("proj-desc");
-      resetheight("proj-role");
-      resetheight("proj-tech");
-      resetheight("proj-title");
-      resetheight("proj_brief");
-    }
-  });
-}
+window.addEventListener("resize", function () {
+  if (window.outerWidth > 480) {
+    set_equiv_element_height("proj-desc");
+    set_equiv_element_height("proj-role");
+    set_equiv_element_height("proj-tech");
+    set_equiv_element_height("proj-title");
+    set_equiv_element_height("proj_brief");
+  } else {
+    resetheight("proj-desc");
+    resetheight("proj-role");
+    resetheight("proj-tech");
+    resetheight("proj-title");
+    resetheight("proj_brief");
+  }
+});
 
 mouseOnJobInfo();
 mouseUpBtnJobInfo();
