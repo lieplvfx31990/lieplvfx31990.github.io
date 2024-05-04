@@ -219,18 +219,19 @@
     font-size: 0.72rem;
     margin-right: 0.4rem;
   }
+
+    /* FOOTER */
+  .ft-style {
+    justify-content: center;
+  }
+  
+  .link-name {
+    display: inline;
+    font-size: 0.6rem;
+  }
+  
+  .ft-icon {
+    font-size: 1.2rem;
+  }
 }
 
-/* FOOTER */
-.ft-style {
-  justify-content: center;
-}
-
-.link-name {
-  display: inline;
-  font-size: 0.6rem;
-}
-
-.ft-icon {
-  font-size: 1.2rem;
-}
